@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# dependencies
+/node_modules
+/.pnp
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# production
+/dist
+
+# local env files
+.env
+.env.development.local
+.env.production.local
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# IDE and text editors
+.vscode/
+
+# Build and temporary files
+/tmp/
+/*.tmp
+/*.swp
+
+# User configuration
+~/.npmrc
+~/.yarnrc
+
+# OSX
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory

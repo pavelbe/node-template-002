@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2022",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "esnext",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+     "baseUrl": ".",                                  /* Specify the base directory to resolve non-relative module names. */
+     "paths": {
+       "@/*": ["src/*"],
+       "@config/*": ["config/*"],
+       "@utils/*": ["utils/*"],
+       "@types/*": ["types/*"],
+     },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,                           /* Disable emitting comments. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
